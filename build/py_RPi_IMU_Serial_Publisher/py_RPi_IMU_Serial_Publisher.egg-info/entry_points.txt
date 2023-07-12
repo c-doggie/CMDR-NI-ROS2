@@ -1,0 +1,3 @@
+[console_scripts]
+py_RPi_IMU_Serial_Publisher = py_RPi_IMU_Serial_Publisher.publisher_member_function:main
+

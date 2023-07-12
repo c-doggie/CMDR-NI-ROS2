@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/cmdr1/ROS_DEV/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/build/cpp_master_node -- -j8 -l8
+[0.052s] [100%] Built target master_node
+[0.179s] Invoked command in '/home/cmdr1/ROS_DEV/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/build/cpp_master_node -- -j8 -l8
+[0.197s] Invoking command in '/home/cmdr1/ROS_DEV/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/build/cpp_master_node
+[0.201s] -- Install configuration: ""
+[0.201s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/lib/cpp_master_node/master_node
+[0.201s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
+[0.201s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
+[0.201s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh
+[0.201s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/path.sh
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/path.dsv
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.bash
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.sh
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.zsh
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.dsv
+[0.202s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/package.dsv
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake
+[0.202s] -- Up-to-date: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/package.xml
+[0.207s] Invoked command in '/home/cmdr1/ROS_DEV/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/build/cpp_master_node

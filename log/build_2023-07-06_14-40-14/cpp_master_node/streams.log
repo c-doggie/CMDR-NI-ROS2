@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/cmdr1/ROS_DEV/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cmdr1/ROS_DEV/src/cpp_master_node -DCMAKE_INSTALL_PREFIX=/home/cmdr1/ROS_DEV/install/cpp_master_node
+[0.046s] -- The C compiler identification is GNU 11.3.0
+[0.079s] -- The CXX compiler identification is GNU 11.3.0
+[0.083s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.338s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.360s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.429s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.479s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.494s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.529s] -- Looking for pthread.h
+[0.574s] -- Looking for pthread.h - found
+[0.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.622s] -- Found Threads: TRUE  
+[0.730s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.773s] -- Configured cppcheck include dirs: 
+[0.773s] -- Configured cppcheck exclude dirs and/or files: 
+[0.774s] -- Added test 'lint_cmake' to check CMake code style
+[0.774s] -- Added test 'uncrustify' to check C / C++ code style
+[0.774s] -- Configured uncrustify additional arguments: 
+[0.774s] -- Added test 'xmllint' to check XML markup files
+[0.775s] -- Configuring done
+[0.780s] -- Generating done
+[0.781s] -- Build files have been written to: /home/cmdr1/ROS_DEV/build/cpp_master_node
+[0.787s] Invoked command in '/home/cmdr1/ROS_DEV/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cmdr1/ROS_DEV/src/cpp_master_node -DCMAKE_INSTALL_PREFIX=/home/cmdr1/ROS_DEV/install/cpp_master_node
+[0.788s] Invoking command in '/home/cmdr1/ROS_DEV/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/build/cpp_master_node -- -j8 -l8
+[0.818s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o[0m
+[5.764s] [100%] [32m[1mLinking CXX executable master_node[0m
+[5.996s] [100%] Built target master_node
+[6.001s] Invoked command in '/home/cmdr1/ROS_DEV/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/build/cpp_master_node -- -j8 -l8
+[6.021s] Invoking command in '/home/cmdr1/ROS_DEV/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/build/cpp_master_node
+[6.026s] -- Install configuration: ""
+[6.026s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/lib/cpp_master_node/master_node
+[6.027s] -- Set runtime path of "/home/cmdr1/ROS_DEV/install/cpp_master_node/lib/cpp_master_node/master_node" to ""
+[6.027s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
+[6.027s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/path.sh
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/environment/path.dsv
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.bash
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.sh
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.zsh
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/local_setup.dsv
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/package.dsv
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake
+[6.028s] -- Installing: /home/cmdr1/ROS_DEV/install/cpp_master_node/share/cpp_master_node/package.xml
+[6.030s] Invoked command in '/home/cmdr1/ROS_DEV/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/build/cpp_master_node

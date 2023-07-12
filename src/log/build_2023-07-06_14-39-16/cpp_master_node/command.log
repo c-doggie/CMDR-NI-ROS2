@@ -1,0 +1,4 @@
+Invoking command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/src/build/cpp_master_node -- -j8 -l8
+Invoked command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/src/build/cpp_master_node -- -j8 -l8
+Invoking command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/src/build/cpp_master_node
+Invoked command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/src/build/cpp_master_node

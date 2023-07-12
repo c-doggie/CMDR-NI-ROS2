@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-RPi-IMU-Serial-Publisher
+Version: 0.0.0
+Summary: A Node hosted on the main NUC that reads data from the RPi that is transmitting data and publishes it to an RPi IMU specific topic.
+Home-page: UNKNOWN
+Maintainer: Joshua Anderson
+Maintainer-email: joshua.wei.anderson@gmail.com
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

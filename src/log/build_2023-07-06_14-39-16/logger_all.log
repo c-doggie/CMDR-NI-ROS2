@@ -1,0 +1,126 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f84aa1d5870>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f84aa2135b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f84aa2135b0>>)
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.215s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cmdr1/ROS_DEV/src'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_master_node) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_master_node' with type 'ros.ament_cmake' and name 'cpp_master_node'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpp_master_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_master_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cmdr1/ROS_DEV/src/build/cpp_master_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cmdr1/ROS_DEV/src/install/cpp_master_node', 'merge_install': False, 'path': '/home/cmdr1/ROS_DEV/src/cpp_master_node', 'symlink_install': False, 'test_result_base': None}
+[0.274s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cmdr1/ROS_DEV/src/cpp_master_node' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cmdr1/ROS_DEV/src/cpp_master_node'
+[0.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/src/build/cpp_master_node -- -j8 -l8
+[5.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr1/ROS_DEV/src/build/cpp_master_node -- -j8 -l8
+[5.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/src/build/cpp_master_node
+[5.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_master_node)
+[5.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cmdr1/ROS_DEV/src/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmdr1/ROS_DEV/src/build/cpp_master_node
+[5.961s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node' for CMake module files
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node' for CMake config files
+[5.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_master_node', 'cmake_prefix_path')
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.ps1'
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.dsv'
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.sh'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/bin'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib/pkgconfig/cpp_master_node.pc'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib/python3.10/site-packages'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/bin'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.ps1'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.sh'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.bash'
+[5.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.zsh'
+[5.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/colcon-core/packages/cpp_master_node)
+[5.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_master_node)
+[5.981s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node' for CMake module files
+[5.981s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node' for CMake config files
+[5.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_master_node', 'cmake_prefix_path')
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.ps1'
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.dsv'
+[5.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/hook/cmake_prefix_path.sh'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/bin'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib/pkgconfig/cpp_master_node.pc'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/lib/python3.10/site-packages'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/bin'
+[5.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.ps1'
+[5.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.dsv'
+[5.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.sh'
+[5.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.bash'
+[5.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/cpp_master_node/package.zsh'
+[5.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cmdr1/ROS_DEV/src/install/cpp_master_node/share/colcon-core/packages/cpp_master_node)
+[5.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.986s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.989s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.989s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.989s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cmdr1/ROS_DEV/src/install/local_setup.ps1'
+[6.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cmdr1/ROS_DEV/src/install/_local_setup_util_ps1.py'
+[6.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cmdr1/ROS_DEV/src/install/setup.ps1'
+[6.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cmdr1/ROS_DEV/src/install/local_setup.sh'
+[6.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cmdr1/ROS_DEV/src/install/_local_setup_util_sh.py'
+[6.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cmdr1/ROS_DEV/src/install/setup.sh'
+[6.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cmdr1/ROS_DEV/src/install/local_setup.bash'
+[6.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cmdr1/ROS_DEV/src/install/setup.bash'
+[6.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cmdr1/ROS_DEV/src/install/local_setup.zsh'
+[6.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cmdr1/ROS_DEV/src/install/setup.zsh'
