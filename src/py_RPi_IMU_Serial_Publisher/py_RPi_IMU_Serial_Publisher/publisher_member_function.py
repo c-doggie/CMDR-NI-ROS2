@@ -84,7 +84,8 @@ class MinimalPublisher(Node):
             return receiver_socket
         
         #If get a network connection error.
-        except OSError:
+        except OSError as e:
+            self.get_logger().fatal(e)
             self.get_logger().fatal("OSError occurred. Please check your network settings. Exiting Script.")
             exit()
 
