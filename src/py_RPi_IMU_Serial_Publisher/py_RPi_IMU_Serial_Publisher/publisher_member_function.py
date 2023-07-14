@@ -11,11 +11,11 @@ class MinimalPublisher(Node):
         #Create node with name
         super().__init__('rpi_imu_ypr_publisher')
 
-        #on the no~de, create publisher that sends a string with a buffer queue of 10.
+        #on the node, create publisher that sends a string with a buffer queue of 10.
         self.publisher_ = self.create_publisher(String, 'rpi_imu_ypr_topic', 10)
 
         #Define period and frequency
-        timer_hz = 250
+        timer_hz = 200
         timer_freq = 1/timer_hz  # seconds
 
         #Log Details
@@ -71,7 +71,9 @@ class MinimalPublisher(Node):
 
 
     def tcp_init(self):
-        receiver_ip = "192.168.2.2" # Nuc IP --> Check router settings for this IP.
+        #receiver_ip = "192.168.2.2" # NUC IP if on Belkin Router --> Check router settings for this IP.
+        receiver_ip = "169.254.48.36" #NUC IP if on LabSwitch Eth Connection. --> Check wired internet settings for this IP.
+
         receiver_port = 8888 # User Defined.
         receiver_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP Socket Initialization
         
