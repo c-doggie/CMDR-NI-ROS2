@@ -1,4 +1,5 @@
 import rclpy
+import struct
 from rclpy.node import Node
 import socket
 
@@ -32,6 +33,19 @@ class MinimalPublisher(Node):
 
         
 
+    def recvall(sock, count):
+        buf = b''
+        while count:
+            newbuf = sock.recv(count)
+            if not newbuf: return None
+            buf += newbuf
+            count -= len(newbuf)
+        return buf    
+    
+    def recv_one_message(sock):
+        lengthbuf = recvall(sock, 4)
+        length, = struct.unpack('!I', lengthbuf)
+        return recvall(sock, length)
 
     def timer_callback(self, sender_socket, receiver_socket):
         #Define message type
@@ -44,15 +58,15 @@ class MinimalPublisher(Node):
             sender_socket.setblocking(0)
             while True:
                 try:
-                    sender_socket.recv(1024)
+                    sender_socket.recv(12)
                 except BlockingIOError:
                     break
             sender_socket.setblocking(1)
 
             # Receive data from the sender
-            msg.data = sender_socket.recv(1024).decode()
-            msg.data = msg.data
-
+            msg.data = sender_socket.recv(12).decode()
+            msg.data = struct.unpack('!fff', *msg.data)
+            
             #If msg.data is non empty
             if msg.data:
                 self.publisher_.publish(msg)
