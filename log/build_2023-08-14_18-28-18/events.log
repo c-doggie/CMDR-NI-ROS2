@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.001851] (-) JobUnselected: {'identifier': 'py_RPi_IMU_Serial_Publisher'}
+[0.002459] (cpp_master_node) JobQueued: {'identifier': 'cpp_master_node', 'dependencies': OrderedDict()}
+[0.004459] (cpp_master_node) JobStarted: {'identifier': 'cpp_master_node'}
+[0.049337] (cpp_master_node) JobProgress: {'identifier': 'cpp_master_node', 'progress': 'cmake'}
+[0.050452] (cpp_master_node) Command: {'cmd': ['/usr/bin/cmake', '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node', '-DCMAKE_INSTALL_PREFIX=/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cmdr'), ('SSH_CLIENT', '10.0.0.252 59946 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmdr'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e43def89-50b4-4c76-bc9d-f7878fd63ff8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmdr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d08bce243e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.252 59946 10.0.0.50 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099217] (-) TimerEvent: {}
+[0.200110] (-) TimerEvent: {}
+[0.301275] (-) TimerEvent: {}
+[0.320772] (cpp_master_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401477] (-) TimerEvent: {}
+[0.502358] (-) TimerEvent: {}
+[0.587381] (cpp_master_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.602532] (-) TimerEvent: {}
+[0.619156] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702726] (-) TimerEvent: {}
+[0.803568] (-) TimerEvent: {}
+[0.904397] (-) TimerEvent: {}
+[0.950174] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.975843] (cpp_master_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.976853] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.978478] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.993067] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004612] (-) TimerEvent: {}
+[1.105480] (-) TimerEvent: {}
+[1.206581] (-) TimerEvent: {}
+[1.307317] (-) TimerEvent: {}
+[1.353524] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.381074] (cpp_master_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.382244] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.383789] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.401415] (cpp_master_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.407440] (-) TimerEvent: {}
+[1.508161] (-) TimerEvent: {}
+[1.608987] (-) TimerEvent: {}
+[1.709734] (-) TimerEvent: {}
+[1.810445] (-) TimerEvent: {}
+[1.911279] (-) TimerEvent: {}
+[2.012058] (-) TimerEvent: {}
+[2.102806] (cpp_master_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.112258] (-) TimerEvent: {}
+[2.213070] (-) TimerEvent: {}
+[2.313798] (-) TimerEvent: {}
+[2.414503] (-) TimerEvent: {}
+[2.515190] (-) TimerEvent: {}
+[2.567816] (cpp_master_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.615373] (-) TimerEvent: {}
+[2.716551] (-) TimerEvent: {}
+[2.817313] (-) TimerEvent: {}
+[2.836645] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.869346] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.914464] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.917457] (-) TimerEvent: {}
+[2.981442] (cpp_master_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.017652] (-) TimerEvent: {}
+[3.077130] (cpp_master_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.117873] (-) TimerEvent: {}
+[3.218727] (-) TimerEvent: {}
+[3.319503] (-) TimerEvent: {}
+[3.409374] (cpp_master_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.419668] (-) TimerEvent: {}
+[3.425409] (cpp_master_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.519857] (-) TimerEvent: {}
+[3.620536] (-) TimerEvent: {}
+[3.721322] (-) TimerEvent: {}
+[3.822213] (-) TimerEvent: {}
+[3.923170] (-) TimerEvent: {}
+[3.928380] (cpp_master_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.023330] (-) TimerEvent: {}
+[4.095107] (cpp_master_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.123564] (-) TimerEvent: {}
+[4.224565] (-) TimerEvent: {}
+[4.325294] (-) TimerEvent: {}
+[4.388340] (cpp_master_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.425483] (-) TimerEvent: {}
+[4.446832] (cpp_master_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.525654] (-) TimerEvent: {}
+[4.626470] (-) TimerEvent: {}
+[4.730403] (-) TimerEvent: {}
+[4.782648] (cpp_master_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.785073] (cpp_master_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.830915] (-) TimerEvent: {}
+[4.931953] (-) TimerEvent: {}
+[5.032952] (-) TimerEvent: {}
+[5.133684] (-) TimerEvent: {}
+[5.134769] (cpp_master_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.139448] (cpp_master_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.233900] (-) TimerEvent: {}
+[5.334778] (-) TimerEvent: {}
+[5.435496] (-) TimerEvent: {}
+[5.536202] (-) TimerEvent: {}
+[5.636962] (-) TimerEvent: {}
+[5.737664] (-) TimerEvent: {}
+[5.801898] (cpp_master_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.837829] (-) TimerEvent: {}
+[5.938552] (-) TimerEvent: {}
+[5.990619] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.038730] (-) TimerEvent: {}
+[6.063490] (cpp_master_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.138996] (-) TimerEvent: {}
+[6.240236] (-) TimerEvent: {}
+[6.340994] (-) TimerEvent: {}
+[6.441801] (-) TimerEvent: {}
+[6.447492] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.450245] (cpp_master_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.452455] (cpp_master_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.453382] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.460335] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.461013] (cpp_master_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.463027] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.469879] (cpp_master_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.536355] (cpp_master_node) StdoutLine: {'line': b'-- Generating done\n'}
+[6.541976] (-) TimerEvent: {}
+[6.543663] (cpp_master_node) StdoutLine: {'line': b'-- Build files have been written to: /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node\n'}
+[6.580727] (cpp_master_node) CommandEnded: {'returncode': 0}
+[6.582936] (cpp_master_node) JobProgress: {'identifier': 'cpp_master_node', 'progress': 'build'}
+[6.585470] (cpp_master_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', '--', '-j4', '-l4'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cmdr'), ('SSH_CLIENT', '10.0.0.252 59946 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmdr'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e43def89-50b4-4c76-bc9d-f7878fd63ff8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmdr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d08bce243e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.252 59946 10.0.0.50 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.642178] (-) TimerEvent: {}
+[6.743349] (-) TimerEvent: {}
+[6.815760] (cpp_master_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o\x1b[0m\n'}
+[6.843562] (-) TimerEvent: {}
+[6.944373] (-) TimerEvent: {}
+[7.045150] (-) TimerEvent: {}
+[7.145812] (-) TimerEvent: {}
+[7.246477] (-) TimerEvent: {}
+[7.347131] (-) TimerEvent: {}
+[7.447796] (-) TimerEvent: {}
+[7.548464] (-) TimerEvent: {}
+[7.649231] (-) TimerEvent: {}
+[7.749927] (-) TimerEvent: {}
+[7.850632] (-) TimerEvent: {}
+[7.951373] (-) TimerEvent: {}
+[8.052081] (-) TimerEvent: {}
+[8.152780] (-) TimerEvent: {}
+[8.253459] (-) TimerEvent: {}
+[8.354210] (-) TimerEvent: {}
+[8.455081] (-) TimerEvent: {}
+[8.555876] (-) TimerEvent: {}
+[8.656630] (-) TimerEvent: {}
+[8.757547] (-) TimerEvent: {}
+[8.858388] (-) TimerEvent: {}
+[8.959196] (-) TimerEvent: {}
+[9.060011] (-) TimerEvent: {}
+[9.160815] (-) TimerEvent: {}
+[9.262544] (-) TimerEvent: {}
+[9.363448] (-) TimerEvent: {}
+[9.464335] (-) TimerEvent: {}
+[9.565212] (-) TimerEvent: {}
+[9.666015] (-) TimerEvent: {}
+[9.766872] (-) TimerEvent: {}
+[9.867759] (-) TimerEvent: {}
+[9.968600] (-) TimerEvent: {}
+[10.069434] (-) TimerEvent: {}
+[10.170344] (-) TimerEvent: {}
+[10.271220] (-) TimerEvent: {}
+[10.372005] (-) TimerEvent: {}
+[10.472869] (-) TimerEvent: {}
+[10.573702] (-) TimerEvent: {}
+[10.674615] (-) TimerEvent: {}
+[10.775587] (-) TimerEvent: {}
+[10.876448] (-) TimerEvent: {}
+[10.977341] (-) TimerEvent: {}
+[11.078397] (-) TimerEvent: {}
+[11.179198] (-) TimerEvent: {}
+[11.280046] (-) TimerEvent: {}
+[11.380899] (-) TimerEvent: {}
+[11.481684] (-) TimerEvent: {}
+[11.582496] (-) TimerEvent: {}
+[11.683458] (-) TimerEvent: {}
+[11.784366] (-) TimerEvent: {}
+[11.885235] (-) TimerEvent: {}
+[11.986207] (-) TimerEvent: {}
+[12.087061] (-) TimerEvent: {}
+[12.187935] (-) TimerEvent: {}
+[12.288789] (-) TimerEvent: {}
+[12.389693] (-) TimerEvent: {}
+[12.490510] (-) TimerEvent: {}
+[12.591331] (-) TimerEvent: {}
+[12.692164] (-) TimerEvent: {}
+[12.793010] (-) TimerEvent: {}
+[12.893934] (-) TimerEvent: {}
+[12.994752] (-) TimerEvent: {}
+[13.095622] (-) TimerEvent: {}
+[13.196427] (-) TimerEvent: {}
+[13.297286] (-) TimerEvent: {}
+[13.398072] (-) TimerEvent: {}
+[13.498876] (-) TimerEvent: {}
+[13.599717] (-) TimerEvent: {}
+[13.700491] (-) TimerEvent: {}
+[13.801335] (-) TimerEvent: {}
+[13.902129] (-) TimerEvent: {}
+[14.002962] (-) TimerEvent: {}
+[14.103820] (-) TimerEvent: {}
+[14.204641] (-) TimerEvent: {}
+[14.305504] (-) TimerEvent: {}
+[14.406372] (-) TimerEvent: {}
+[14.507197] (-) TimerEvent: {}
+[14.607997] (-) TimerEvent: {}
+[14.708861] (-) TimerEvent: {}
+[14.809663] (-) TimerEvent: {}
+[14.910576] (-) TimerEvent: {}
+[15.011494] (-) TimerEvent: {}
+[15.112295] (-) TimerEvent: {}
+[15.213145] (-) TimerEvent: {}
+[15.313964] (-) TimerEvent: {}
+[15.414862] (-) TimerEvent: {}
+[15.515975] (-) TimerEvent: {}
+[15.616860] (-) TimerEvent: {}
+[15.717744] (-) TimerEvent: {}
+[15.818627] (-) TimerEvent: {}
+[15.919530] (-) TimerEvent: {}
+[16.020360] (-) TimerEvent: {}
+[16.121300] (-) TimerEvent: {}
+[16.222090] (-) TimerEvent: {}
+[16.322903] (-) TimerEvent: {}
+[16.423724] (-) TimerEvent: {}
+[16.524522] (-) TimerEvent: {}
+[16.617728] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:18:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[16.618761] (cpp_master_node) StderrLine: {'line': b'   18 |     void topic_callback(const \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String & msg) const\n'}
+[16.619268] (cpp_master_node) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.619737] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:18:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[16.620429] (cpp_master_node) StderrLine: {'line': b'   18 |     void topic_callback(const std_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString & msg) const\n'}
+[16.621208] (cpp_master_node) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[16.621698] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:18:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[16.622182] (cpp_master_node) StderrLine: {'line': b'   18 |     void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString & msg) const\n'}
+[16.622739] (cpp_master_node) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[16.623241] (cpp_master_node) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[16.623815] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:18:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[16.624320] (cpp_master_node) StderrLine: {'line': b'   18 |     void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String & msg) const\n'}
+[16.624858] (-) TimerEvent: {}
+[16.625447] (cpp_master_node) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.626324] (cpp_master_node) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[16.628927] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[16.629663] (cpp_master_node) StderrLine: {'line': b'   18 |     void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K & msg) const\n'}
+[16.630185] (cpp_master_node) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.651385] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.652645] (cpp_master_node) StderrLine: {'line': b'   22 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr subscription_;\n'}
+[16.653197] (cpp_master_node) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.653577] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[16.654063] (cpp_master_node) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[16.654529] (cpp_master_node) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.654869] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[16.655150] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[16.655506] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[16.655906] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[16.656317] (cpp_master_node) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[16.658253] (cpp_master_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[16.658891] (cpp_master_node) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[16.659618] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:22:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[16.660274] (cpp_master_node) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[16.660861] (cpp_master_node) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.661512] (cpp_master_node) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[16.685993] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMasterSubscriber::MasterSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.686726] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:13:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[16.687261] (cpp_master_node) StderrLine: {'line': b'   13 |       \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<geometry_msgs::msg::Vector3>(\n'}
+[16.687704] (cpp_master_node) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.688099] (cpp_master_node) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[16.725056] (-) TimerEvent: {}
+[16.825852] (-) TimerEvent: {}
+[16.926713] (-) TimerEvent: {}
+[17.027479] (-) TimerEvent: {}
+[17.128252] (-) TimerEvent: {}
+[17.229189] (-) TimerEvent: {}
+[17.329996] (-) TimerEvent: {}
+[17.430788] (-) TimerEvent: {}
+[17.531606] (-) TimerEvent: {}
+[17.632389] (-) TimerEvent: {}
+[17.733209] (-) TimerEvent: {}
+[17.834012] (-) TimerEvent: {}
+[17.934905] (-) TimerEvent: {}
+[18.035734] (-) TimerEvent: {}
+[18.136761] (-) TimerEvent: {}
+[18.237568] (-) TimerEvent: {}
+[18.338353] (-) TimerEvent: {}
+[18.390399] (cpp_master_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39\x1b[m\x1b[K,\n'}
+[18.391236] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[18.391723] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[18.392220] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[18.392759] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[18.393288] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[18.393717] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[18.394136] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[18.394572] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[18.394987] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[18.395401] (cpp_master_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:3\x1b[m\x1b[K:\n'}
+[18.395990] (cpp_master_node) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.396463] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   recursively required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.397760] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>; MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.398406] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void>, geometry_msgs::msg::Vector3_<std::allocator<void> >, geometry_msgs::msg::Vector3_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = geometry_msgs::msg::Vector3_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.398986] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void>, geometry_msgs::msg::Vector3_<std::allocator<void> >, geometry_msgs::msg::Vector3_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = geometry_msgs::msg::Vector3_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.399534] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void>, geometry_msgs::msg::Vector3_<std::allocator<void> >, geometry_msgs::msg::Vector3_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.400015] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Vector3_<std::allocator<void> >; CallbackT = std::_Bind<void (MasterSubscriber::*(MasterSubscriber*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void>, geometry_msgs::msg::Vector3_<std::allocator<void> >, geometry_msgs::msg::Vector3_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Vector3_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.400549] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:13:77:\x1b[m\x1b[K   required from here\n'}
+[18.401067] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[18.401496] (cpp_master_node) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[18.401899] (cpp_master_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.402395] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[18.403240] (cpp_master_node) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[18.403682] (cpp_master_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.404100] (cpp_master_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[18.404510] (cpp_master_node) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[18.405029] (cpp_master_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.438553] (-) TimerEvent: {}
+[18.539814] (-) TimerEvent: {}
+[18.640789] (-) TimerEvent: {}
+[18.741470] (-) TimerEvent: {}
+[18.842284] (-) TimerEvent: {}
+[18.943116] (-) TimerEvent: {}
+[19.043906] (-) TimerEvent: {}
+[19.144762] (-) TimerEvent: {}
+[19.245531] (-) TimerEvent: {}
+[19.346344] (-) TimerEvent: {}
+[19.447183] (-) TimerEvent: {}
+[19.547934] (-) TimerEvent: {}
+[19.648775] (-) TimerEvent: {}
+[19.749570] (-) TimerEvent: {}
+[19.850388] (-) TimerEvent: {}
+[19.951241] (-) TimerEvent: {}
+[20.052075] (-) TimerEvent: {}
+[20.153250] (-) TimerEvent: {}
+[20.254020] (-) TimerEvent: {}
+[20.354817] (-) TimerEvent: {}
+[20.455638] (-) TimerEvent: {}
+[20.556539] (-) TimerEvent: {}
+[20.657347] (-) TimerEvent: {}
+[20.758106] (-) TimerEvent: {}
+[20.858895] (-) TimerEvent: {}
+[20.959788] (-) TimerEvent: {}
+[21.060640] (-) TimerEvent: {}
+[21.161485] (-) TimerEvent: {}
+[21.262313] (-) TimerEvent: {}
+[21.363091] (-) TimerEvent: {}
+[21.463889] (-) TimerEvent: {}
+[21.564734] (-) TimerEvent: {}
+[21.665518] (-) TimerEvent: {}
+[21.766332] (-) TimerEvent: {}
+[21.867143] (-) TimerEvent: {}
+[21.968163] (-) TimerEvent: {}
+[22.069004] (-) TimerEvent: {}
+[22.170044] (-) TimerEvent: {}
+[22.270834] (-) TimerEvent: {}
+[22.371623] (-) TimerEvent: {}
+[22.472434] (-) TimerEvent: {}
+[22.573297] (-) TimerEvent: {}
+[22.674177] (-) TimerEvent: {}
+[22.775014] (-) TimerEvent: {}
+[22.875916] (-) TimerEvent: {}
+[22.976880] (-) TimerEvent: {}
+[23.077794] (-) TimerEvent: {}
+[23.178583] (-) TimerEvent: {}
+[23.279386] (-) TimerEvent: {}
+[23.380205] (-) TimerEvent: {}
+[23.481034] (-) TimerEvent: {}
+[23.581924] (-) TimerEvent: {}
+[23.682725] (-) TimerEvent: {}
+[23.783520] (-) TimerEvent: {}
+[23.884317] (-) TimerEvent: {}
+[23.985129] (-) TimerEvent: {}
+[24.085961] (-) TimerEvent: {}
+[24.186727] (-) TimerEvent: {}
+[24.287396] (-) TimerEvent: {}
+[24.388062] (-) TimerEvent: {}
+[24.488783] (-) TimerEvent: {}
+[24.589609] (-) TimerEvent: {}
+[24.660137] (cpp_master_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1\n'}
+[24.661623] (cpp_master_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2\n'}
+[24.662181] (cpp_master_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.668011] (cpp_master_node) CommandEnded: {'returncode': 2}
+[24.689828] (-) TimerEvent: {}
+[24.790767] (-) TimerEvent: {}
+[24.852632] (cpp_master_node) JobEnded: {'identifier': 'cpp_master_node', 'rc': 2}
+[24.865601] (-) EventReactorShutdown: {}

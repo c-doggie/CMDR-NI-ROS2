@@ -1,5 +1,5 @@
 #include <memory>
-
+#include <string>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/vector3.hpp"
 using std::placeholders::_1;
@@ -15,11 +15,11 @@ class MasterSubscriber : public rclcpp::Node
     }
 
   private:
-    void topic_callback(const std_msgs::msg::String & msg) const
+    void topic_callback(const geometry_msgs::msg::Vector3::SharedPtr msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      RCLCPP_INFO(this->get_logger(), "I heard: 'x: %f, y: %f, z: %f'", msg->x, msg->y, msg->z);
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<geometry_msgs::msg::Vector3>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])

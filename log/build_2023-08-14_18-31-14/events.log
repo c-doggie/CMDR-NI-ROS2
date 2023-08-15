@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001961] (-) JobUnselected: {'identifier': 'cpp_master_node'}
+[0.002943] (py_RPi_IMU_Serial_Publisher) JobQueued: {'identifier': 'py_RPi_IMU_Serial_Publisher', 'dependencies': OrderedDict()}
+[0.003186] (py_RPi_IMU_Serial_Publisher) JobStarted: {'identifier': 'py_RPi_IMU_Serial_Publisher'}
+[0.098997] (-) TimerEvent: {}
+[0.200976] (-) TimerEvent: {}
+[0.301685] (-) TimerEvent: {}
+[0.402497] (-) TimerEvent: {}
+[0.503259] (-) TimerEvent: {}
+[0.603984] (-) TimerEvent: {}
+[0.704665] (-) TimerEvent: {}
+[0.805375] (-) TimerEvent: {}
+[0.906295] (-) TimerEvent: {}
+[1.007682] (-) TimerEvent: {}
+[1.108367] (-) TimerEvent: {}
+[1.209310] (-) TimerEvent: {}
+[1.310667] (-) TimerEvent: {}
+[1.411894] (-) TimerEvent: {}
+[1.513253] (-) TimerEvent: {}
+[1.614109] (-) TimerEvent: {}
+[1.714986] (-) TimerEvent: {}
+[1.815735] (-) TimerEvent: {}
+[1.916518] (-) TimerEvent: {}
+[2.017164] (-) TimerEvent: {}
+[2.117817] (-) TimerEvent: {}
+[2.218513] (-) TimerEvent: {}
+[2.319193] (-) TimerEvent: {}
+[2.420021] (-) TimerEvent: {}
+[2.520825] (-) TimerEvent: {}
+[2.621649] (-) TimerEvent: {}
+[2.722359] (-) TimerEvent: {}
+[2.823260] (-) TimerEvent: {}
+[2.879140] (py_RPi_IMU_Serial_Publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_RPi_IMU_Serial_Publisher', 'build', '--build-base', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build', 'install', '--record', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/py_RPi_IMU_Serial_Publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cmdr', 'SSH_CLIENT': '10.0.0.252 59946 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cmdr', 'TERM_PROGRAM_VERSION': '1.81.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e43def89-50b4-4c76-bc9d-f7878fd63ff8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cmdr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d08bce243e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.252 59946 10.0.0.50 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/prefix_override:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.923434] (-) TimerEvent: {}
+[3.024221] (-) TimerEvent: {}
+[3.124919] (-) TimerEvent: {}
+[3.225714] (-) TimerEvent: {}
+[3.326381] (-) TimerEvent: {}
+[3.427133] (-) TimerEvent: {}
+[3.527996] (-) TimerEvent: {}
+[3.629128] (-) TimerEvent: {}
+[3.730481] (-) TimerEvent: {}
+[3.831138] (-) TimerEvent: {}
+[3.931937] (-) TimerEvent: {}
+[3.956722] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running egg_info\n'}
+[3.960056] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info\n'}
+[3.961052] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/PKG-INFO\n'}
+[3.962346] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/dependency_links.txt\n'}
+[3.963158] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing entry points to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/entry_points.txt\n'}
+[3.964167] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing requirements to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/requires.txt\n'}
+[3.965339] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing top-level names to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/top_level.txt\n'}
+[3.966231] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[3.974501] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"reading manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[3.978881] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[3.980350] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running build\n'}
+[3.988253] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running build_py\n'}
+[3.988972] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build\n'}
+[3.990206] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib\n'}
+[3.991122] (py_RPi_IMU_Serial_Publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.996342] (py_RPi_IMU_Serial_Publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.996949] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[3.997926] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[3.998450] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[3.999399] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install\n'}
+[4.000276] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.000876] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher\n'}
+[4.001276] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher\n'}
+[4.001802] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher\n'}
+[4.002519] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[4.003086] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[4.005462] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.008081] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index\n'}
+[4.009083] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index\n'}
+[4.010039] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages\n'}
+[4.011198] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying resource/py_RPi_IMU_Serial_Publisher -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages\n'}
+[4.012292] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying package.xml -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/py_RPi_IMU_Serial_Publisher\n'}
+[4.013104] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.020989] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'Copying ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher-0.0.0-py3.10.egg-info\n'}
+[4.030929] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.032041] (-) TimerEvent: {}
+[4.133290] (-) TimerEvent: {}
+[4.146941] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'Installing py_RPi_IMU_Serial_Publisher script to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.148559] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing list of installed files to '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log'\n"}
+[4.233659] (-) TimerEvent: {}
+[4.281002] (py_RPi_IMU_Serial_Publisher) CommandEnded: {'returncode': 0}
+[4.334507] (-) TimerEvent: {}
+[4.343899] (py_RPi_IMU_Serial_Publisher) JobEnded: {'identifier': 'py_RPi_IMU_Serial_Publisher', 'rc': 0}
+[4.346483] (-) EventReactorShutdown: {}

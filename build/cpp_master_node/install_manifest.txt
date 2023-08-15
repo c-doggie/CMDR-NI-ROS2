@@ -1,3 +1,4 @@
+/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node
 /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
 /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
 /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh

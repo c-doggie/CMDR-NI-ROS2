@@ -17,6 +17,10 @@ find_package(rosidl_default_generators REQUIRED)
 add_executable(master_node src/master_node.cpp)
 ament_target_dependencies(master_node rclcpp geometry_msgs builtin_interfaces rosidl_default_generators)
 
+install(TARGETS
+  master_node
+  DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

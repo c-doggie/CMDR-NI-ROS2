@@ -1,0 +1,39 @@
+[2.890s] Invoking command in '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/py_RPi_IMU_Serial_Publisher': PYTHONPATH=/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/prefix_override:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_RPi_IMU_Serial_Publisher build --build-base /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build install --record /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log --single-version-externally-managed
+[3.954s] running egg_info
+[3.957s] creating ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info
+[3.958s] writing ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/PKG-INFO
+[3.959s] writing dependency_links to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/dependency_links.txt
+[3.960s] writing entry points to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/entry_points.txt
+[3.962s] writing requirements to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/requires.txt
+[3.963s] writing top-level names to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/top_level.txt
+[3.963s] writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+[3.972s] reading manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+[3.976s] writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+[3.984s] running build
+[3.985s] running build_py
+[3.987s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build
+[3.988s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib
+[3.993s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.993s]   warnings.warn(
+[3.994s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+[3.995s] copying py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+[3.996s] copying py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+[3.997s] running install
+[3.997s] running install_lib
+[3.998s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+[3.998s] copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+[3.999s] copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+[4.000s] byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/__init__.py to __init__.cpython-310.pyc
+[4.000s] byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.003s] running install_data
+[4.006s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index
+[4.006s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index
+[4.007s] creating /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages
+[4.009s] copying resource/py_RPi_IMU_Serial_Publisher -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages
+[4.010s] copying package.xml -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/py_RPi_IMU_Serial_Publisher
+[4.010s] running install_egg_info
+[4.018s] Copying ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher-0.0.0-py3.10.egg-info
+[4.028s] running install_scripts
+[4.144s] Installing py_RPi_IMU_Serial_Publisher script to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/py_RPi_IMU_Serial_Publisher
+[4.146s] writing list of installed files to '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log'
+[4.279s] Invoked command in '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/py_RPi_IMU_Serial_Publisher' returned '0': PYTHONPATH=/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/prefix_override:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_RPi_IMU_Serial_Publisher build --build-base /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build install --record /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log --single-version-externally-managed
