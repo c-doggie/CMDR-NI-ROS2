@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cmdr1/ROS_DEV/src/cpp_master_node
+CMAKE_SOURCE_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cmdr1/ROS_DEV/build/cpp_master_node
+CMAKE_BINARY_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
 
 # Include any dependencies generated for this target.
 include CMakeFiles/master_node.dir/depend.make
@@ -69,36 +69,46 @@ include CMakeFiles/master_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/master_node.dir/flags.make
 
-CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o: CMakeFiles/master_node.dir/flags.make
-CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o: /home/cmdr1/ROS_DEV/src/cpp_master_node/src/master_subscriber_node.cpp
-CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o: CMakeFiles/master_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmdr1/ROS_DEV/build/cpp_master_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o -MF CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o.d -o CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o -c /home/cmdr1/ROS_DEV/src/cpp_master_node/src/master_subscriber_node.cpp
+CMakeFiles/master_node.dir/src/master_node.cpp.o: CMakeFiles/master_node.dir/flags.make
+CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp
+CMakeFiles/master_node.dir/src/master_node.cpp.o: CMakeFiles/master_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/master_node.dir/src/master_node.cpp.o -MF CMakeFiles/master_node.dir/src/master_node.cpp.o.d -o CMakeFiles/master_node.dir/src/master_node.cpp.o -c /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp
 
-CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmdr1/ROS_DEV/src/cpp_master_node/src/master_subscriber_node.cpp > CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.i
+CMakeFiles/master_node.dir/src/master_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/master_node.dir/src/master_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp > CMakeFiles/master_node.dir/src/master_node.cpp.i
 
-CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmdr1/ROS_DEV/src/cpp_master_node/src/master_subscriber_node.cpp -o CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.s
+CMakeFiles/master_node.dir/src/master_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/master_node.dir/src/master_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp -o CMakeFiles/master_node.dir/src/master_node.cpp.s
 
 # Object files for target master_node
 master_node_OBJECTS = \
-"CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o"
+"CMakeFiles/master_node.dir/src/master_node.cpp.o"
 
 # External object files for target master_node
 master_node_EXTERNAL_OBJECTS =
 
-master_node: CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o
+master_node: CMakeFiles/master_node.dir/src/master_node.cpp.o
 master_node: CMakeFiles/master_node.dir/build.make
 master_node: /opt/ros/humble/lib/librclcpp.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+master_node: /opt/ros/humble/lib/librcpputils.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+master_node: /opt/ros/humble/lib/librcutils.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+master_node: /opt/ros/humble/lib/librosidl_runtime_c.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+master_node: /opt/ros/humble/lib/librmw.so
 master_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 master_node: /opt/ros/humble/lib/librcl.so
 master_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -132,30 +142,38 @@ master_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 master_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 master_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 master_node: /opt/ros/humble/lib/libtracetools.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 master_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 master_node: /opt/ros/humble/lib/librmw.so
-master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+master_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+master_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 master_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 master_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
-master_node: /opt/ros/humble/lib/librcpputils.so
 master_node: /opt/ros/humble/lib/librosidl_runtime_c.so
+master_node: /opt/ros/humble/lib/librcpputils.so
 master_node: /opt/ros/humble/lib/librcutils.so
-master_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+master_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 master_node: CMakeFiles/master_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmdr1/ROS_DEV/build/cpp_master_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable master_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable master_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/master_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +185,6 @@ CMakeFiles/master_node.dir/clean:
 .PHONY : CMakeFiles/master_node.dir/clean
 
 CMakeFiles/master_node.dir/depend:
-	cd /home/cmdr1/ROS_DEV/build/cpp_master_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cmdr1/ROS_DEV/src/cpp_master_node /home/cmdr1/ROS_DEV/src/cpp_master_node /home/cmdr1/ROS_DEV/build/cpp_master_node /home/cmdr1/ROS_DEV/build/cpp_master_node /home/cmdr1/ROS_DEV/build/cpp_master_node/CMakeFiles/master_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles/master_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/master_node.dir/depend
 

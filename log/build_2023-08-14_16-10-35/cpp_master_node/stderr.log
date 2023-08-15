@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeCache.txt is different than the directory /home/cmdr1/ROS_DEV/build/cpp_master_node where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/cmdr1/ROS_DEV/src/cpp_master_node" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

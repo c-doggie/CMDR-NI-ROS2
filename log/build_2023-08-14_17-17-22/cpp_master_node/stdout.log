@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
+-- Install configuration: ""
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.sh
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.dsv
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.bash
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.sh
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.zsh
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.dsv
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.dsv
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake
+-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake
+-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.xml

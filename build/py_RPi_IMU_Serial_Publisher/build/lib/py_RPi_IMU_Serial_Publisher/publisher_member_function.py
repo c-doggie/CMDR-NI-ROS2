@@ -1,129 +1,72 @@
 import rclpy
+import serial
 from rclpy.node import Node
-import socket
 
-from std_msgs.msg import String
-
+from geometry_msgs.msg import Vector3
 
 class MinimalPublisher(Node):
 
     def __init__(self):
+        
+        #Serial settings:
+        BAUD = 115200
+        SERIAL_PORT = '/dev/pts/2'
+        
+        #Init serial object
+        self.ser = serial.Serial(port = SERIAL_PORT, 
+                    baudrate=BAUD,
+                    timeout = None #Wait indefinitely for data.
+                    )
+        
+        
+        self.get_logger().info(f"Initializing Serial Port @ baud {BAUD} and port {SERIAL_PORT}")
+        
         #Create node with name
         super().__init__('rpi_imu_ypr_publisher')
 
-        #on the node, create publisher that sends a string with a buffer queue of 10.
-        self.publisher_ = self.create_publisher(String, 'rpi_imu_ypr_topic', 10)
+        #on the node, create publisher that sends a vector with a buffer queue of 10.
+        self.publisher_ = self.create_publisher(Vector3, 'rpi_imu_ypr_topic', 10)
 
         #Define period and frequency
-        timer_hz = 250
-        timer_freq = 1/timer_hz  # seconds
+        timer_freq = 200 #Hz
+        timer_period = 1/timer_freq  # seconds
 
         #Log Details
-        self.get_logger().info(f"Publisher Created. Publishing to rpi_imu_ypr_topic at {timer_hz} hz...")
+        self.get_logger().info(f"Publisher Created. Publishing to rpi_imu_ypr_topic at {timer_period} hz...")
+        self.timer = self.create_timer(timer_period, self.timer_callback)
 
-        #Define and Assign TCP socket
-        tcp_receiver_socket = self.tcp_init()
+    def parse_attitude_data(self, data):
+        data = data[:-3].strip() #I have zero clue why it's -5. I think the ascii output of the sensor maybe puts whitespaces after the message? It should be -3 to accocunt for the lat 3 characters.
+        values = data.split(",")
 
-        #Accept connection from sender
-        tcp_sender_socket = self.socket_connect(tcp_receiver_socket)
-
-        #assign callback function to node
-        self.timer = self.create_timer(timer_freq, lambda: self.timer_callback(tcp_sender_socket, tcp_receiver_socket))
-
+        if len(values) >= 4 and values[0] == "$VNYPR":
+            yaw_att = float(values[1].strip())
+            pitch_att = float(values[2].strip())
+            roll_att  = float(values[3].strip())
+            return yaw_att, pitch_att, roll_att
         
-
-
-    def timer_callback(self, sender_socket, receiver_socket):
-        #Define message type
-        msg = String()
-
-        #Check if sender_socket is not empty
-        if sender_socket:
-
-            # Flush unread data in the buffer
-            sender_socket.setblocking(0)
-            while True:
-                try:
-                    sender_socket.recv(1024)
-                except BlockingIOError:
-                    break
-            sender_socket.setblocking(1)
-
-            # Receive data from the sender
-            msg.data = sender_socket.recv(1024).decode()
-            msg.data = msg.data
-
-            #If msg.data is non empty
-            if msg.data:
-                self.publisher_.publish(msg)
-                self.get_logger().info('Publishing YPR Data: "%s"' % msg.data)
-            else:
-                self.get_logger().error("Error: No data received. Checking if socket is still receiving data.")
-
-                #Check if socket is still active
-                if not self.check_socket_activity(receiver_socket):
-
-                    self.get_logger().info("Socket is no longer active.")
-
-                    #for i in range(5,0,-1):
-                    #    print(f"Retrying connection in {i} seconds...")
-                    #    time.sleep(1)
-
-
-    def tcp_init(self):
-        receiver_ip = "192.168.2.2" # Nuc IP --> Check router settings for this IP.
-        receiver_port = 8888 # User Defined.
-        receiver_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP Socket Initialization
+        return None
+    
+    def timer_callback(self):
+        #Define message packet as the Vector3 message. Details: http://docs.ros.org/en/api/geometry_msgs/html/msg/Wrench.html
+        msg = Vector3()
         
-        # Bind the socket to a specific IP and port
-        try:
-            receiver_socket.bind((receiver_ip, receiver_port))
-            self.get_logger().info(f"Socket successfully bound to address: ({receiver_ip}, {receiver_port})")
-            return receiver_socket
+        #Read the top of the stack from the serial port
+        attitude_data = self.ser.readline()
         
-        #If get a network connection error.
-        except OSError:
-            self.get_logger().fatal("OSError occurred. Please check your network settings. Exiting Script.")
-            exit()
-
-
-    # Function to connect to the socket and accept incoming connections
-    def socket_connect(self, receiver_sock):
-        sender_socket = None
-        try:
-            # Listen for incoming connections
-            receiver_sock.listen(1)
-            self.get_logger().info("Listening for incoming connections.")
-
-            # Accept a connection from the sender
-            sender_socket, sender_address = receiver_sock.accept()
-            self.get_logger().info(f"Connection accepted from {sender_address}.")
-            
-        except socket.timeout:
-            self.get_logger().error("Connection timed out.")
-            
-        #Return the socket that is sending data.
-        return sender_socket
-
-    # Function to check socket activity
-    def check_socket_activity(self, sock):
-        try:
-            sock.settimeout(5)
-            # Attempt to receive data from the socket
-            data = sock.recv(1024).decode()
-            if data:
-                return True  # Data received
-            else:
-                return False  # No data received
-        except socket.timeout:
-            return False  # Socket timed out
+        #Parse attitude data and assign to message packet
+        msg.x, msg.y, msg.z = self.parse_attitude_data(attitude_data)
+        
+        #Send packet to the topic
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: yaw: {msg.x}, pitch: {msg.y}, roll: {msg.z}')
 
 
 def main(args=None):
-
-    # Initialize ROS node
+    
     rclpy.init(args=args)
-
+    
+    #Create minimal publiser object
     minimal_publisher = MinimalPublisher()
 
     rclpy.spin(minimal_publisher)

@@ -7,14 +7,15 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-
-add_executable(master_node src/master_subscriber_node.cpp)
-ament_target_dependencies(master_node rclcpp std_msgs)
 # uncomment the following section in order to fill in
 # further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+add_executable(master_node src/master_node.cpp)
+ament_target_dependencies(master_node rclcpp geometry_msgs builtin_interfaces rosidl_default_generators)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,9 +28,5 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-install(TARGETS
-  master_node
-  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

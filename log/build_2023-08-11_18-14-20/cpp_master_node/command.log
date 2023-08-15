@@ -1,0 +1,2 @@
+Invoking command in '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j4 -l4
+Invoked command in '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j4 -l4

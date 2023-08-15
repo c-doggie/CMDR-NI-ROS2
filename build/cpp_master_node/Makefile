@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cmdr1/ROS_DEV/src/cpp_master_node
+CMAKE_SOURCE_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cmdr1/ROS_DEV/build/cpp_master_node
+CMAKE_BINARY_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr1/ROS_DEV/build/cpp_master_node/CMakeFiles /home/cmdr1/ROS_DEV/build/cpp_master_node//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr1/ROS_DEV/build/cpp_master_node/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -210,29 +210,29 @@ master_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/build
 .PHONY : master_node/fast
 
-src/master_subscriber_node.o: src/master_subscriber_node.cpp.o
-.PHONY : src/master_subscriber_node.o
+src/master_node.o: src/master_node.cpp.o
+.PHONY : src/master_node.o
 
 # target to build an object file
-src/master_subscriber_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o
-.PHONY : src/master_subscriber_node.cpp.o
+src/master_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_node.cpp.o
+.PHONY : src/master_node.cpp.o
 
-src/master_subscriber_node.i: src/master_subscriber_node.cpp.i
-.PHONY : src/master_subscriber_node.i
+src/master_node.i: src/master_node.cpp.i
+.PHONY : src/master_node.i
 
 # target to preprocess a source file
-src/master_subscriber_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.i
-.PHONY : src/master_subscriber_node.cpp.i
+src/master_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_node.cpp.i
+.PHONY : src/master_node.cpp.i
 
-src/master_subscriber_node.s: src/master_subscriber_node.cpp.s
-.PHONY : src/master_subscriber_node.s
+src/master_node.s: src/master_node.cpp.s
+.PHONY : src/master_node.s
 
 # target to generate assembly for a file
-src/master_subscriber_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.s
-.PHONY : src/master_subscriber_node.cpp.s
+src/master_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/master_node.cpp.s
+.PHONY : src/master_node.cpp.s
 
 # Help Target
 help:
@@ -250,9 +250,9 @@ help:
 	@echo "... cpp_master_node_uninstall"
 	@echo "... uninstall"
 	@echo "... master_node"
-	@echo "... src/master_subscriber_node.o"
-	@echo "... src/master_subscriber_node.i"
-	@echo "... src/master_subscriber_node.s"
+	@echo "... src/master_node.o"
+	@echo "... src/master_node.i"
+	@echo "... src/master_node.s"
 .PHONY : help
 
 

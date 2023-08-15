@@ -1,0 +1,564 @@
+[0.000000] (-) TimerEvent: {}
+[0.002008] (cpp_master_node) JobQueued: {'identifier': 'cpp_master_node', 'dependencies': OrderedDict()}
+[0.002647] (py_RPi_IMU_Serial_Publisher) JobQueued: {'identifier': 'py_RPi_IMU_Serial_Publisher', 'dependencies': OrderedDict()}
+[0.004598] (cpp_master_node) JobStarted: {'identifier': 'cpp_master_node'}
+[0.045165] (py_RPi_IMU_Serial_Publisher) JobStarted: {'identifier': 'py_RPi_IMU_Serial_Publisher'}
+[0.091725] (cpp_master_node) JobProgress: {'identifier': 'cpp_master_node', 'progress': 'cmake'}
+[0.092764] (cpp_master_node) Command: {'cmd': ['/usr/bin/cmake', '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node', '-DCMAKE_INSTALL_PREFIX=/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cmdr'), ('SSH_CLIENT', '10.0.0.252 54644 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmdr'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92de6402-2089-4e72-a37d-a71a2c45034d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmdr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d08bce243e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.252 54644 10.0.0.50 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/opt/ros/humble')]), 'shell': False}
+[0.104462] (-) TimerEvent: {}
+[0.205618] (-) TimerEvent: {}
+[0.306390] (-) TimerEvent: {}
+[0.407395] (-) TimerEvent: {}
+[0.508427] (-) TimerEvent: {}
+[0.609539] (-) TimerEvent: {}
+[0.714021] (-) TimerEvent: {}
+[0.814991] (-) TimerEvent: {}
+[0.820726] (cpp_master_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.915211] (-) TimerEvent: {}
+[1.017060] (-) TimerEvent: {}
+[1.117919] (-) TimerEvent: {}
+[1.219309] (-) TimerEvent: {}
+[1.320838] (-) TimerEvent: {}
+[1.351446] (cpp_master_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.411658] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.421074] (-) TimerEvent: {}
+[1.522020] (-) TimerEvent: {}
+[1.622846] (-) TimerEvent: {}
+[1.725091] (-) TimerEvent: {}
+[1.806032] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.825307] (-) TimerEvent: {}
+[1.840825] (cpp_master_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.846262] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.851166] (cpp_master_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.871341] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.925482] (-) TimerEvent: {}
+[2.027227] (-) TimerEvent: {}
+[2.128841] (-) TimerEvent: {}
+[2.232925] (-) TimerEvent: {}
+[2.285311] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.315596] (cpp_master_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.318190] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.321353] (cpp_master_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.333118] (-) TimerEvent: {}
+[2.361469] (cpp_master_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.433276] (-) TimerEvent: {}
+[2.534103] (-) TimerEvent: {}
+[2.635026] (-) TimerEvent: {}
+[2.735882] (-) TimerEvent: {}
+[2.836874] (-) TimerEvent: {}
+[2.937751] (-) TimerEvent: {}
+[3.038763] (-) TimerEvent: {}
+[3.140408] (-) TimerEvent: {}
+[3.150597] (py_RPi_IMU_Serial_Publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_RPi_IMU_Serial_Publisher', 'build', '--build-base', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build', 'install', '--record', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/src/py_RPi_IMU_Serial_Publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cmdr', 'SSH_CLIENT': '10.0.0.252 54644 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cmdr', 'TERM_PROGRAM_VERSION': '1.81.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-92de6402-2089-4e72-a37d-a71a2c45034d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/cmdr/ROS_DEV/NI-to-ROS-2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cmdr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d08bce243e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.252 54644 10.0.0.50 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/prefix_override:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node'}, 'shell': False}
+[3.240946] (-) TimerEvent: {}
+[3.287859] (cpp_master_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.341220] (-) TimerEvent: {}
+[3.443215] (-) TimerEvent: {}
+[3.544211] (-) TimerEvent: {}
+[3.645158] (-) TimerEvent: {}
+[3.746267] (-) TimerEvent: {}
+[3.847197] (-) TimerEvent: {}
+[3.948721] (-) TimerEvent: {}
+[3.989815] (cpp_master_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.048911] (-) TimerEvent: {}
+[4.149704] (-) TimerEvent: {}
+[4.250503] (-) TimerEvent: {}
+[4.267572] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.270458] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info\n'}
+[4.271167] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/PKG-INFO\n'}
+[4.272452] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/dependency_links.txt\n'}
+[4.273208] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing entry points to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/entry_points.txt\n'}
+[4.273883] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing requirements to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/requires.txt\n'}
+[4.274538] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'writing top-level names to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/top_level.txt\n'}
+[4.275787] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[4.284883] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"reading manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[4.288820] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'\n"}
+[4.289685] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running build\n'}
+[4.290267] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.290901] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build\n'}
+[4.291355] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib\n'}
+[4.291842] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'creating /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.292328] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.292764] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.293334] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying py_RPi_IMU_Serial_Publisher/publisher_member_function_old.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.294433] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install\n'}
+[4.296223] (py_RPi_IMU_Serial_Publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.296859] (py_RPi_IMU_Serial_Publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.297608] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.301868] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher\n'}
+[4.303252] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying /home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/publisher_member_function_old.py -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher\n'}
+[4.306546] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[4.310154] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'byte-compiling /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/publisher_member_function_old.py to publisher_member_function_old.cpython-310.pyc\n'}
+[4.315814] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.316806] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'copying package.xml -> /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/py_RPi_IMU_Serial_Publisher\n'}
+[4.317881] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.324991] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"removing '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.326924] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'Copying ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher-0.0.0-py3.10.egg-info\n'}
+[4.333602] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.350713] (-) TimerEvent: {}
+[4.418990] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b'Installing py_RPi_IMU_Serial_Publisher script to /home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/py_RPi_IMU_Serial_Publisher\n'}
+[4.420820] (py_RPi_IMU_Serial_Publisher) StdoutLine: {'line': b"writing list of installed files to '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log'\n"}
+[4.438886] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.451181] (-) TimerEvent: {}
+[4.506402] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.552346] (py_RPi_IMU_Serial_Publisher) CommandEnded: {'returncode': 0}
+[4.554152] (-) TimerEvent: {}
+[4.612738] (cpp_master_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.644405] (py_RPi_IMU_Serial_Publisher) JobEnded: {'identifier': 'py_RPi_IMU_Serial_Publisher', 'rc': 0}
+[4.654357] (-) TimerEvent: {}
+[4.736720] (cpp_master_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.754510] (-) TimerEvent: {}
+[4.855274] (-) TimerEvent: {}
+[4.888546] (cpp_master_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.955540] (-) TimerEvent: {}
+[5.056549] (-) TimerEvent: {}
+[5.157502] (-) TimerEvent: {}
+[5.258603] (-) TimerEvent: {}
+[5.359640] (-) TimerEvent: {}
+[5.408915] (cpp_master_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.438161] (cpp_master_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.459873] (-) TimerEvent: {}
+[5.560841] (-) TimerEvent: {}
+[5.662478] (-) TimerEvent: {}
+[5.763372] (-) TimerEvent: {}
+[5.864235] (-) TimerEvent: {}
+[5.965364] (-) TimerEvent: {}
+[6.066304] (-) TimerEvent: {}
+[6.133160] (cpp_master_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.166574] (-) TimerEvent: {}
+[6.267545] (-) TimerEvent: {}
+[6.354146] (cpp_master_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.367872] (-) TimerEvent: {}
+[6.469094] (-) TimerEvent: {}
+[6.570106] (-) TimerEvent: {}
+[6.670929] (-) TimerEvent: {}
+[6.694334] (cpp_master_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.771140] (-) TimerEvent: {}
+[6.793652] (cpp_master_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.871385] (-) TimerEvent: {}
+[6.972691] (-) TimerEvent: {}
+[7.074268] (-) TimerEvent: {}
+[7.175280] (-) TimerEvent: {}
+[7.276744] (-) TimerEvent: {}
+[7.292372] (cpp_master_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.296696] (cpp_master_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.377078] (-) TimerEvent: {}
+[7.478622] (-) TimerEvent: {}
+[7.579645] (-) TimerEvent: {}
+[7.681018] (-) TimerEvent: {}
+[7.756291] (cpp_master_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.762265] (cpp_master_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.781460] (-) TimerEvent: {}
+[7.882715] (-) TimerEvent: {}
+[7.983672] (-) TimerEvent: {}
+[8.084816] (-) TimerEvent: {}
+[8.185906] (-) TimerEvent: {}
+[8.286920] (-) TimerEvent: {}
+[8.388066] (-) TimerEvent: {}
+[8.488960] (-) TimerEvent: {}
+[8.589886] (-) TimerEvent: {}
+[8.690873] (-) TimerEvent: {}
+[8.722568] (cpp_master_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.791032] (-) TimerEvent: {}
+[8.891780] (-) TimerEvent: {}
+[8.992685] (-) TimerEvent: {}
+[9.093761] (-) TimerEvent: {}
+[9.194592] (-) TimerEvent: {}
+[9.207069] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.207953] (cpp_master_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.208367] (cpp_master_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.215145] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.223139] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.223847] (cpp_master_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.229172] (cpp_master_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.240954] (cpp_master_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.294799] (-) TimerEvent: {}
+[9.297365] (cpp_master_node) StdoutLine: {'line': b'-- Generating done\n'}
+[9.304953] (cpp_master_node) StdoutLine: {'line': b'-- Build files have been written to: /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node\n'}
+[9.337287] (cpp_master_node) CommandEnded: {'returncode': 0}
+[9.339209] (cpp_master_node) JobProgress: {'identifier': 'cpp_master_node', 'progress': 'build'}
+[9.342014] (cpp_master_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', '--', '-j4', '-l4'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cmdr'), ('SSH_CLIENT', '10.0.0.252 54644 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmdr'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92de6402-2089-4e72-a37d-a71a2c45034d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmdr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d08bce243e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.252 54644 10.0.0.50 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/opt/ros/humble')]), 'shell': False}
+[9.395119] (-) TimerEvent: {}
+[9.496227] (-) TimerEvent: {}
+[9.560430] (cpp_master_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/master_subscriber_node.cpp.o\x1b[0m\n'}
+[9.596538] (-) TimerEvent: {}
+[9.697532] (-) TimerEvent: {}
+[9.798330] (-) TimerEvent: {}
+[9.899118] (-) TimerEvent: {}
+[9.999942] (-) TimerEvent: {}
+[10.100792] (-) TimerEvent: {}
+[10.201667] (-) TimerEvent: {}
+[10.302439] (-) TimerEvent: {}
+[10.403243] (-) TimerEvent: {}
+[10.504101] (-) TimerEvent: {}
+[10.604909] (-) TimerEvent: {}
+[10.705724] (-) TimerEvent: {}
+[10.806583] (-) TimerEvent: {}
+[10.907447] (-) TimerEvent: {}
+[11.008340] (-) TimerEvent: {}
+[11.109385] (-) TimerEvent: {}
+[11.210311] (-) TimerEvent: {}
+[11.311658] (-) TimerEvent: {}
+[11.412513] (-) TimerEvent: {}
+[11.513388] (-) TimerEvent: {}
+[11.614163] (-) TimerEvent: {}
+[11.714976] (-) TimerEvent: {}
+[11.815946] (-) TimerEvent: {}
+[11.916883] (-) TimerEvent: {}
+[12.017789] (-) TimerEvent: {}
+[12.118922] (-) TimerEvent: {}
+[12.219856] (-) TimerEvent: {}
+[12.320732] (-) TimerEvent: {}
+[12.421689] (-) TimerEvent: {}
+[12.522717] (-) TimerEvent: {}
+[12.623628] (-) TimerEvent: {}
+[12.724587] (-) TimerEvent: {}
+[12.825437] (-) TimerEvent: {}
+[12.926332] (-) TimerEvent: {}
+[13.027209] (-) TimerEvent: {}
+[13.128213] (-) TimerEvent: {}
+[13.229089] (-) TimerEvent: {}
+[13.329979] (-) TimerEvent: {}
+[13.430916] (-) TimerEvent: {}
+[13.531758] (-) TimerEvent: {}
+[13.632608] (-) TimerEvent: {}
+[13.733502] (-) TimerEvent: {}
+[13.834437] (-) TimerEvent: {}
+[13.935392] (-) TimerEvent: {}
+[14.036257] (-) TimerEvent: {}
+[14.137175] (-) TimerEvent: {}
+[14.238025] (-) TimerEvent: {}
+[14.339039] (-) TimerEvent: {}
+[14.440013] (-) TimerEvent: {}
+[14.541147] (-) TimerEvent: {}
+[14.642121] (-) TimerEvent: {}
+[14.743092] (-) TimerEvent: {}
+[14.844044] (-) TimerEvent: {}
+[14.944942] (-) TimerEvent: {}
+[15.045846] (-) TimerEvent: {}
+[15.146775] (-) TimerEvent: {}
+[15.247719] (-) TimerEvent: {}
+[15.348592] (-) TimerEvent: {}
+[15.449484] (-) TimerEvent: {}
+[15.550319] (-) TimerEvent: {}
+[15.651292] (-) TimerEvent: {}
+[15.752160] (-) TimerEvent: {}
+[15.853090] (-) TimerEvent: {}
+[15.953912] (-) TimerEvent: {}
+[16.054813] (-) TimerEvent: {}
+[16.155671] (-) TimerEvent: {}
+[16.256513] (-) TimerEvent: {}
+[16.357373] (-) TimerEvent: {}
+[16.458332] (-) TimerEvent: {}
+[16.559244] (-) TimerEvent: {}
+[16.660102] (-) TimerEvent: {}
+[16.760956] (-) TimerEvent: {}
+[16.861930] (-) TimerEvent: {}
+[16.962905] (-) TimerEvent: {}
+[17.063803] (-) TimerEvent: {}
+[17.164631] (-) TimerEvent: {}
+[17.265918] (-) TimerEvent: {}
+[17.366929] (-) TimerEvent: {}
+[17.467764] (-) TimerEvent: {}
+[17.568609] (-) TimerEvent: {}
+[17.669471] (-) TimerEvent: {}
+[17.770325] (-) TimerEvent: {}
+[17.871206] (-) TimerEvent: {}
+[17.972159] (-) TimerEvent: {}
+[18.073041] (-) TimerEvent: {}
+[18.173918] (-) TimerEvent: {}
+[18.274715] (-) TimerEvent: {}
+[18.375571] (-) TimerEvent: {}
+[18.476448] (-) TimerEvent: {}
+[18.577423] (-) TimerEvent: {}
+[18.678268] (-) TimerEvent: {}
+[18.779119] (-) TimerEvent: {}
+[18.880047] (-) TimerEvent: {}
+[18.980907] (-) TimerEvent: {}
+[19.081794] (-) TimerEvent: {}
+[19.182753] (-) TimerEvent: {}
+[19.283664] (-) TimerEvent: {}
+[19.384595] (-) TimerEvent: {}
+[19.485550] (-) TimerEvent: {}
+[19.586390] (-) TimerEvent: {}
+[19.687263] (-) TimerEvent: {}
+[19.788169] (-) TimerEvent: {}
+[19.889031] (-) TimerEvent: {}
+[19.989890] (-) TimerEvent: {}
+[20.090799] (-) TimerEvent: {}
+[20.191681] (-) TimerEvent: {}
+[20.292574] (-) TimerEvent: {}
+[20.393587] (-) TimerEvent: {}
+[20.494474] (-) TimerEvent: {}
+[20.595346] (-) TimerEvent: {}
+[20.696314] (-) TimerEvent: {}
+[20.797171] (-) TimerEvent: {}
+[20.898018] (-) TimerEvent: {}
+[20.998881] (-) TimerEvent: {}
+[21.099783] (-) TimerEvent: {}
+[21.200628] (-) TimerEvent: {}
+[21.301522] (-) TimerEvent: {}
+[21.402365] (-) TimerEvent: {}
+[21.503227] (-) TimerEvent: {}
+[21.604241] (-) TimerEvent: {}
+[21.705089] (-) TimerEvent: {}
+[21.805994] (-) TimerEvent: {}
+[21.906807] (-) TimerEvent: {}
+[22.007714] (-) TimerEvent: {}
+[22.108582] (-) TimerEvent: {}
+[22.209527] (-) TimerEvent: {}
+[22.310519] (-) TimerEvent: {}
+[22.411553] (-) TimerEvent: {}
+[22.512437] (-) TimerEvent: {}
+[22.613253] (-) TimerEvent: {}
+[22.714077] (-) TimerEvent: {}
+[22.814932] (-) TimerEvent: {}
+[22.915768] (-) TimerEvent: {}
+[23.016617] (-) TimerEvent: {}
+[23.117511] (-) TimerEvent: {}
+[23.218525] (-) TimerEvent: {}
+[23.319422] (-) TimerEvent: {}
+[23.420253] (-) TimerEvent: {}
+[23.521159] (-) TimerEvent: {}
+[23.622104] (-) TimerEvent: {}
+[23.723050] (-) TimerEvent: {}
+[23.823860] (-) TimerEvent: {}
+[23.924688] (-) TimerEvent: {}
+[24.025576] (-) TimerEvent: {}
+[24.126441] (-) TimerEvent: {}
+[24.227285] (-) TimerEvent: {}
+[24.328151] (-) TimerEvent: {}
+[24.429123] (-) TimerEvent: {}
+[24.529999] (-) TimerEvent: {}
+[24.630830] (-) TimerEvent: {}
+[24.731729] (-) TimerEvent: {}
+[24.832562] (-) TimerEvent: {}
+[24.933477] (-) TimerEvent: {}
+[25.034322] (-) TimerEvent: {}
+[25.135246] (-) TimerEvent: {}
+[25.236078] (-) TimerEvent: {}
+[25.336905] (-) TimerEvent: {}
+[25.437797] (-) TimerEvent: {}
+[25.539045] (-) TimerEvent: {}
+[25.639892] (-) TimerEvent: {}
+[25.740792] (-) TimerEvent: {}
+[25.841693] (-) TimerEvent: {}
+[25.942557] (-) TimerEvent: {}
+[26.043444] (-) TimerEvent: {}
+[26.144346] (-) TimerEvent: {}
+[26.245273] (-) TimerEvent: {}
+[26.346180] (-) TimerEvent: {}
+[26.447130] (-) TimerEvent: {}
+[26.548108] (-) TimerEvent: {}
+[26.649056] (-) TimerEvent: {}
+[26.749927] (-) TimerEvent: {}
+[26.850766] (-) TimerEvent: {}
+[26.951607] (-) TimerEvent: {}
+[27.052465] (-) TimerEvent: {}
+[27.153379] (-) TimerEvent: {}
+[27.254264] (-) TimerEvent: {}
+[27.355488] (-) TimerEvent: {}
+[27.456409] (-) TimerEvent: {}
+[27.557214] (-) TimerEvent: {}
+[27.658075] (-) TimerEvent: {}
+[27.758926] (-) TimerEvent: {}
+[27.859797] (-) TimerEvent: {}
+[27.960624] (-) TimerEvent: {}
+[28.061404] (-) TimerEvent: {}
+[28.162165] (-) TimerEvent: {}
+[28.262963] (-) TimerEvent: {}
+[28.363774] (-) TimerEvent: {}
+[28.464687] (-) TimerEvent: {}
+[28.565615] (-) TimerEvent: {}
+[28.666494] (-) TimerEvent: {}
+[28.767413] (-) TimerEvent: {}
+[28.868312] (-) TimerEvent: {}
+[28.969186] (-) TimerEvent: {}
+[29.070117] (-) TimerEvent: {}
+[29.171249] (-) TimerEvent: {}
+[29.272118] (-) TimerEvent: {}
+[29.373018] (-) TimerEvent: {}
+[29.473833] (-) TimerEvent: {}
+[29.574748] (-) TimerEvent: {}
+[29.675750] (-) TimerEvent: {}
+[29.776814] (-) TimerEvent: {}
+[29.878230] (-) TimerEvent: {}
+[29.979726] (-) TimerEvent: {}
+[30.080497] (-) TimerEvent: {}
+[30.181403] (-) TimerEvent: {}
+[30.282251] (-) TimerEvent: {}
+[30.383192] (-) TimerEvent: {}
+[30.484002] (-) TimerEvent: {}
+[30.584910] (-) TimerEvent: {}
+[30.685816] (-) TimerEvent: {}
+[30.786651] (-) TimerEvent: {}
+[30.887464] (-) TimerEvent: {}
+[30.988283] (-) TimerEvent: {}
+[31.089150] (-) TimerEvent: {}
+[31.189946] (-) TimerEvent: {}
+[31.290810] (-) TimerEvent: {}
+[31.391643] (-) TimerEvent: {}
+[31.492515] (-) TimerEvent: {}
+[31.593425] (-) TimerEvent: {}
+[31.694258] (-) TimerEvent: {}
+[31.795180] (-) TimerEvent: {}
+[31.895961] (-) TimerEvent: {}
+[31.996819] (-) TimerEvent: {}
+[32.097666] (-) TimerEvent: {}
+[32.198498] (-) TimerEvent: {}
+[32.299441] (-) TimerEvent: {}
+[32.400360] (-) TimerEvent: {}
+[32.501189] (-) TimerEvent: {}
+[32.602030] (-) TimerEvent: {}
+[32.702897] (-) TimerEvent: {}
+[32.803805] (-) TimerEvent: {}
+[32.904674] (-) TimerEvent: {}
+[33.005529] (-) TimerEvent: {}
+[33.106370] (-) TimerEvent: {}
+[33.207220] (-) TimerEvent: {}
+[33.308121] (-) TimerEvent: {}
+[33.408957] (-) TimerEvent: {}
+[33.509954] (-) TimerEvent: {}
+[33.610768] (-) TimerEvent: {}
+[33.711592] (-) TimerEvent: {}
+[33.812487] (-) TimerEvent: {}
+[33.913527] (-) TimerEvent: {}
+[34.014463] (-) TimerEvent: {}
+[34.115349] (-) TimerEvent: {}
+[34.216270] (-) TimerEvent: {}
+[34.317167] (-) TimerEvent: {}
+[34.418066] (-) TimerEvent: {}
+[34.518960] (-) TimerEvent: {}
+[34.619848] (-) TimerEvent: {}
+[34.720676] (-) TimerEvent: {}
+[34.821519] (-) TimerEvent: {}
+[34.922357] (-) TimerEvent: {}
+[35.023179] (-) TimerEvent: {}
+[35.124017] (-) TimerEvent: {}
+[35.224845] (-) TimerEvent: {}
+[35.325736] (-) TimerEvent: {}
+[35.426637] (-) TimerEvent: {}
+[35.527471] (-) TimerEvent: {}
+[35.628276] (-) TimerEvent: {}
+[35.729175] (-) TimerEvent: {}
+[35.830017] (-) TimerEvent: {}
+[35.930931] (-) TimerEvent: {}
+[36.031738] (-) TimerEvent: {}
+[36.132533] (-) TimerEvent: {}
+[36.233352] (-) TimerEvent: {}
+[36.334213] (-) TimerEvent: {}
+[36.435057] (-) TimerEvent: {}
+[36.535919] (-) TimerEvent: {}
+[36.636722] (-) TimerEvent: {}
+[36.737658] (-) TimerEvent: {}
+[36.838471] (-) TimerEvent: {}
+[36.939283] (-) TimerEvent: {}
+[37.040109] (-) TimerEvent: {}
+[37.141097] (-) TimerEvent: {}
+[37.241993] (-) TimerEvent: {}
+[37.342915] (-) TimerEvent: {}
+[37.443809] (-) TimerEvent: {}
+[37.544651] (-) TimerEvent: {}
+[37.645565] (-) TimerEvent: {}
+[37.746366] (-) TimerEvent: {}
+[37.847209] (-) TimerEvent: {}
+[37.948024] (-) TimerEvent: {}
+[38.048921] (-) TimerEvent: {}
+[38.149827] (-) TimerEvent: {}
+[38.250689] (-) TimerEvent: {}
+[38.351578] (-) TimerEvent: {}
+[38.452491] (-) TimerEvent: {}
+[38.553406] (-) TimerEvent: {}
+[38.654221] (-) TimerEvent: {}
+[38.754974] (-) TimerEvent: {}
+[38.855794] (-) TimerEvent: {}
+[38.956620] (-) TimerEvent: {}
+[39.057514] (-) TimerEvent: {}
+[39.158318] (-) TimerEvent: {}
+[39.259133] (-) TimerEvent: {}
+[39.360062] (-) TimerEvent: {}
+[39.461016] (-) TimerEvent: {}
+[39.561843] (-) TimerEvent: {}
+[39.662781] (-) TimerEvent: {}
+[39.763589] (-) TimerEvent: {}
+[39.864465] (-) TimerEvent: {}
+[39.965318] (-) TimerEvent: {}
+[40.066099] (-) TimerEvent: {}
+[40.166945] (-) TimerEvent: {}
+[40.268217] (-) TimerEvent: {}
+[40.369355] (-) TimerEvent: {}
+[40.470396] (-) TimerEvent: {}
+[40.571280] (-) TimerEvent: {}
+[40.672191] (-) TimerEvent: {}
+[40.773040] (-) TimerEvent: {}
+[40.874008] (-) TimerEvent: {}
+[40.974962] (-) TimerEvent: {}
+[41.075787] (-) TimerEvent: {}
+[41.176652] (-) TimerEvent: {}
+[41.277547] (-) TimerEvent: {}
+[41.378394] (-) TimerEvent: {}
+[41.479309] (-) TimerEvent: {}
+[41.580181] (-) TimerEvent: {}
+[41.681335] (-) TimerEvent: {}
+[41.782604] (-) TimerEvent: {}
+[41.883683] (-) TimerEvent: {}
+[41.984563] (-) TimerEvent: {}
+[42.085437] (-) TimerEvent: {}
+[42.186596] (-) TimerEvent: {}
+[42.289128] (-) TimerEvent: {}
+[42.390405] (-) TimerEvent: {}
+[42.491275] (-) TimerEvent: {}
+[42.592474] (-) TimerEvent: {}
+[42.693746] (-) TimerEvent: {}
+[42.795185] (-) TimerEvent: {}
+[42.887603] (cpp_master_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable master_node\x1b[0m\n'}
+[42.895385] (-) TimerEvent: {}
+[42.996570] (-) TimerEvent: {}
+[43.097913] (-) TimerEvent: {}
+[43.199762] (-) TimerEvent: {}
+[43.300873] (-) TimerEvent: {}
+[43.402076] (-) TimerEvent: {}
+[43.503045] (-) TimerEvent: {}
+[43.604067] (-) TimerEvent: {}
+[43.704861] (-) TimerEvent: {}
+[43.805729] (-) TimerEvent: {}
+[43.907279] (-) TimerEvent: {}
+[44.008417] (-) TimerEvent: {}
+[44.109414] (-) TimerEvent: {}
+[44.210135] (-) TimerEvent: {}
+[44.310856] (-) TimerEvent: {}
+[44.411563] (-) TimerEvent: {}
+[44.512349] (-) TimerEvent: {}
+[44.613541] (-) TimerEvent: {}
+[44.715341] (-) TimerEvent: {}
+[44.816246] (-) TimerEvent: {}
+[44.873861] (cpp_master_node) StdoutLine: {'line': b'[100%] Built target master_node\n'}
+[44.911386] (cpp_master_node) CommandEnded: {'returncode': 0}
+[44.916386] (-) TimerEvent: {}
+[45.019002] (-) TimerEvent: {}
+[45.031884] (cpp_master_node) JobProgress: {'identifier': 'cpp_master_node', 'progress': 'install'}
+[45.065232] (cpp_master_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'], 'cwd': '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cmdr'), ('SSH_CLIENT', '10.0.0.252 54644 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmdr'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-92de6402-2089-4e72-a37d-a71a2c45034d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmdr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmdr/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/cmdr/.local/bin:/opt/ros/humble/bin:/home/cmdr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d08bce243e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.252 54644 10.0.0.50 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node:/home/cmdr/ROS_DEV/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher:/opt/ros/humble')]), 'shell': False}
+[45.095327] (cpp_master_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.096531] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node\n'}
+[45.119236] (-) TimerEvent: {}
+[45.124997] (cpp_master_node) StdoutLine: {'line': b'-- Set runtime path of "/home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node" to ""\n'}
+[45.126279] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node\n'}
+[45.127581] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node\n'}
+[45.129078] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh\n'}
+[45.130426] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv\n'}
+[45.132146] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.sh\n'}
+[45.133374] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.dsv\n'}
+[45.134698] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.bash\n'}
+[45.136031] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.sh\n'}
+[45.137377] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.zsh\n'}
+[45.138643] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.dsv\n'}
+[45.139892] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.dsv\n'}
+[45.148197] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node\n'}
+[45.149919] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake\n'}
+[45.151109] (cpp_master_node) StdoutLine: {'line': b'-- Installing: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake\n'}
+[45.162136] (cpp_master_node) StdoutLine: {'line': b'-- Up-to-date: /home/cmdr/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.xml\n'}
+[45.162758] (cpp_master_node) CommandEnded: {'returncode': 0}
+[45.219470] (-) TimerEvent: {}
+[45.320373] (-) TimerEvent: {}
+[45.379966] (cpp_master_node) JobEnded: {'identifier': 'cpp_master_node', 'rc': 0}
+[45.383149] (-) EventReactorShutdown: {}
