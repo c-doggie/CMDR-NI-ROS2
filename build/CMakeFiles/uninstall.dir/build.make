@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
+CMAKE_SOURCE_DIR = /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/build
+CMAKE_BINARY_DIR = /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/cmdr/ROS_DEV/NI-to-ROS-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/cmdr/ROS_DEV/NI-to-ROS-2/build /home/cmdr/ROS_DEV/NI-to-ROS-2/build /home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

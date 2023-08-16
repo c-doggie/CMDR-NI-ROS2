@@ -1,4 +1,4 @@
-# Install script for directory: /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
+# Install script for directory: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/aarch64-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node/master_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node" TYPE EXECUTABLE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/master_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node" TYPE EXECUTABLE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/master_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node/master_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node/master_node")
     file(RPATH_CHANGE
@@ -57,17 +57,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/aarch64-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node/master_node")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_master_node/master_node")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_master_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_master_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_master_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_master_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node/environment" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node/environment" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node/environment" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node/environment" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/packages/cpp_master_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_index/share/ament_index/resource_index/packages/cpp_master_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node/cmake" TYPE FILE FILES
-    "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_core/cpp_master_nodeConfig.cmake"
-    "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_core/cpp_master_nodeConfig-version.cmake"
+    "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_core/cpp_master_nodeConfig.cmake"
+    "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/ament_cmake_core/cpp_master_nodeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_master_node" TYPE FILE FILES "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j20 -l20
+[0.038s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.173s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.192s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.449s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.480s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.488s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.545s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.545s] -- Configured cppcheck include dirs: 
+[0.545s] -- Configured cppcheck exclude dirs and/or files: 
+[0.545s] -- Added test 'lint_cmake' to check CMake code style
+[0.546s] -- Added test 'uncrustify' to check C / C++ code style
+[0.546s] -- Configured uncrustify additional arguments: 
+[0.546s] -- Added test 'xmllint' to check XML markup files
+[0.546s] -- Configuring done
+[0.553s] -- Generating done
+[0.554s] -- Build files have been written to: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
+[0.574s] [35m[1mConsolidate compiler generated dependencies of target master_node[0m
+[0.587s] [100%] Built target master_node
+[0.596s] Invoked command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j20 -l20
+[0.619s] Invoking command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
+[0.627s] -- Install configuration: ""
+[0.628s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node
+[0.628s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
+[0.628s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
+[0.628s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh
+[0.628s] -- Installing: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv
+[0.628s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.sh
+[0.628s] -- Installing: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.dsv
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.bash
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.sh
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.zsh
+[0.629s] -- Installing: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.dsv
+[0.629s] -- Installing: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.dsv
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake
+[0.629s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.xml
+[0.632s] Invoked command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node

@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j20 -l20
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[4.798s] [100%] [32m[1mLinking CXX executable master_node[0m
+[5.023s] [100%] Built target master_node
+[5.030s] Invoked command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node -- -j20 -l20
+[5.054s] Invoking command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
+[5.058s] -- Install configuration: ""
+[5.058s] -- Installing: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node
+[5.060s] -- Set runtime path of "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/lib/cpp_master_node/master_node" to ""
+[5.060s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/package_run_dependencies/cpp_master_node
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/parent_prefix_path/cpp_master_node
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.sh
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/ament_prefix_path.dsv
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.sh
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/environment/path.dsv
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.bash
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.sh
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.zsh
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/local_setup.dsv
+[5.061s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.dsv
+[5.062s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/ament_index/resource_index/packages/cpp_master_node
+[5.062s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig.cmake
+[5.062s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/cmake/cpp_master_nodeConfig-version.cmake
+[5.062s] -- Up-to-date: /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node/share/cpp_master_node/package.xml
+[5.063s] Invoked command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node

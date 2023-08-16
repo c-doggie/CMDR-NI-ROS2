@@ -77,5 +77,5 @@
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node"
+    "cmake.sourceDirectory": "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node"
 }

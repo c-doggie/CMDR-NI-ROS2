@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/cpp_master_node_uninstall",
+			"path" : "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/cpp_master_node_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/cpp_master_node_uninstall.rule",
+			"path" : "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/cpp_master_node_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

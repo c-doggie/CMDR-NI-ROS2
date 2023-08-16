@@ -1,0 +1,33 @@
+[0.022s] Invoking command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node': /usr/bin/cmake /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node -DCMAKE_INSTALL_PREFIX=/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.464s] -- Detecting C compile features
+[0.464s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.648s] -- Detecting CXX compiler ABI info - done
+[0.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.665s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.683s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.684s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.684s]   has asked CMake to find a package configuration file provided by
+[0.684s]   "ament_cmake", but CMake did not find one.
+[0.684s] 
+[0.684s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.684s]   any of the following names:
+[0.684s] 
+[0.685s]     ament_cmakeConfig.cmake
+[0.685s]     ament_cmake-config.cmake
+[0.685s] 
+[0.685s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.685s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.685s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.686s]   has been installed.
+[0.686s] 
+[0.686s] [0m
+[0.686s] -- Configuring incomplete, errors occurred!
+[0.686s] See also "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles/CMakeOutput.log".
+[0.689s] Invoked command in '/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/cpp_master_node' returned '1': /usr/bin/cmake /home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node -DCMAKE_INSTALL_PREFIX=/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/install/cpp_master_node

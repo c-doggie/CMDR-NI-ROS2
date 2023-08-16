@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/install_manifest.txt")
+set(install_manifest "/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/build/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
