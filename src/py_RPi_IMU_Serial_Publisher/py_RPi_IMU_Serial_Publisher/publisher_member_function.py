@@ -9,7 +9,7 @@ from geometry_msgs.msg import Vector3
 
 #Serial port settings:
 BAUD = 115200
-SERIAL_PORT = '/dev/pts/4'
+SERIAL_PORT = '/dev/pts/2'
 
 #Topic details
 TOPIC_PUBLISHED = 'rpi_imu_ypr_topic'
