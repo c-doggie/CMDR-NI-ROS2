@@ -33,7 +33,9 @@ class MinimalPublisher(Node):
                         timeout = None #Wait indefinitely for data.
                         )
         except serial.SerialException: #If issue with serial object instantiation
-            self.get_logger().error(f"Error: there was an issue with initializing the serial port object at port {SERIAL_PORT} @ {BAUD} baudrate\nExiting.")
+            self.get_logger().error(f"There was an issue with initializing the serial port object at port {SERIAL_PORT} @ {BAUD} baudrate. Check if the serial connection is running.")
+            
+            self.get_logger().info("Exiting.")
             exit()
         
         #Stabilize serial port

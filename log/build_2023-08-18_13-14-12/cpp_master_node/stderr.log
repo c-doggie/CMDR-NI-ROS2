@@ -1,0 +1,4 @@
+[01m[K/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid MasterSubscriber::topic_callback(geometry_msgs::msg::Vector3_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/joshua/_dev/ROS_DEV/NI-to-ROS-2/src/cpp_master_node/src/master_node.cpp:36:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |     void topic_callback([01;35m[Kconst geometry_msgs::msg::Vector3::SharedPtr msg[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
