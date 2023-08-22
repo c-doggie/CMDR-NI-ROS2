@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info
+writing ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/entry_points.txt
+writing requirements to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/requires.txt
+writing top-level names to ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/top_level.txt
+writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+copying py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+copying py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+copying /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/__init__.py -> /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+copying /home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/build/lib/py_RPi_IMU_Serial_Publisher/publisher_member_function.py -> /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher
+byte-compiling /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+running install_data
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index
+creating /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages
+copying resource/py_RPi_IMU_Serial_Publisher -> /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/share/py_RPi_IMU_Serial_Publisher
+running install_egg_info
+Copying ../../build/py_RPi_IMU_Serial_Publisher/py_RPi_IMU_Serial_Publisher.egg-info to /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/python3.10/site-packages/py_RPi_IMU_Serial_Publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing py_RPi_IMU_Serial_Publisher script to /home/cmdr1/ROS_WS/NI-to-ROS-2/install/py_RPi_IMU_Serial_Publisher/lib/py_RPi_IMU_Serial_Publisher
+writing list of installed files to '/home/cmdr1/ROS_WS/NI-to-ROS-2/build/py_RPi_IMU_Serial_Publisher/install.log'

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node
+CMAKE_SOURCE_DIR = /home/cmdr1/ROS_WS/NI-to-ROS-2/src/cpp_master_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node
+CMAKE_BINARY_DIR = /home/cmdr1/ROS_WS/NI-to-ROS-2/build/cpp_master_node
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr1/ROS_WS/NI-to-ROS-2/build/cpp_master_node/CMakeFiles /home/cmdr1/ROS_WS/NI-to-ROS-2/build/cpp_master_node//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr/ROS_DEV/NI-to-ROS-2/build/cpp_master_node/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmdr1/ROS_WS/NI-to-ROS-2/build/cpp_master_node/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

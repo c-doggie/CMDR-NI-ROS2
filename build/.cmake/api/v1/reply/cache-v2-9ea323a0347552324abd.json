@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/test_results"
+			"value" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/test_results"
 		},
 		{
 			"name" : "BUILD_TESTING",
@@ -99,7 +99,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build"
+			"value" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -243,7 +243,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/aarch64-linux-gnu-g++"
+			"value" : "/usr/bin/g++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -259,7 +259,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -275,7 +275,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -371,7 +371,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
+			"value" : "/usr/bin/gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -387,7 +387,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -403,7 +403,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -699,7 +699,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node"
+			"value" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/src/cpp_master_node"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -959,7 +959,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -975,7 +975,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-readelf"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-strip"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Python3",
@@ -1259,7 +1259,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.12()]"
+			"value" : "[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1347,7 +1347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/libcrypto.so"
+			"value" : "/usr/lib/x86_64-linux-gnu/libcrypto.so"
 		},
 		{
 			"name" : "OPENSSL_INCLUDE_DIR",
@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/libssl.so"
+			"value" : "/usr/lib/x86_64-linux-gnu/libssl.so"
 		},
 		{
 			"name" : "PKG_CONFIG_ARGN",
@@ -1423,7 +1423,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "pi-imu"
+			"value" : "cmdr1"
 		},
 		{
 			"name" : "TinyXML2_DIR",
@@ -1519,7 +1519,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto"
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto"
 		},
 		{
 			"name" : "_OPENSSL_LDFLAGS_OTHER",
@@ -1543,7 +1543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/aarch64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "_OPENSSL_LIBRARIES",
@@ -1567,7 +1567,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/aarch64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "_OPENSSL_LIBS",
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread"
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread"
 		},
 		{
 			"name" : "_OPENSSL_STATIC_LDFLAGS_OTHER",
@@ -1747,7 +1747,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/aarch64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "_OPENSSL_STATIC_LIBS",
@@ -1879,7 +1879,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages"
+			"value" : "Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages"
 		},
 		{
 			"name" : "_Python3_INTERPRETER_SIGNATURE",
@@ -2299,7 +2299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build"
+			"value" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build"
 		},
 		{
 			"name" : "cpp_master_node_IS_TOP_LEVEL",
@@ -2323,7 +2323,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node"
+			"value" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/src/cpp_master_node"
 		},
 		{
 			"name" : "fastcdr_DIR",
@@ -2371,7 +2371,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/cmake/fmt"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/fmt"
 		},
 		{
 			"name" : "foonathan_memory_DIR",
@@ -2435,7 +2435,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/libcrypto.so"
+			"value" : "/usr/lib/x86_64-linux-gnu/libcrypto.so"
 		},
 		{
 			"name" : "pkgcfg_lib__OPENSSL_ssl",
@@ -2451,7 +2451,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/libssl.so"
+			"value" : "/usr/lib/x86_64-linux-gnu/libssl.so"
 		},
 		{
 			"name" : "prefix_result",
@@ -2463,7 +2463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/aarch64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "rcl_DIR",
@@ -2847,7 +2847,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/aarch64-linux-gnu/cmake/spdlog"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/spdlog"
 		},
 		{
 			"name" : "spdlog_vendor_DIR",

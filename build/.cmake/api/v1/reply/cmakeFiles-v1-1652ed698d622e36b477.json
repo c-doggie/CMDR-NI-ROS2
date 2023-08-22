@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeSystem.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -260,7 +260,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -489,7 +489,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -613,7 +613,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -707,7 +707,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -883,7 +883,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_package_templates/templates.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/ament_cmake_package_templates/templates.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3652,11 +3652,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfig.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -3705,27 +3705,27 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config-version.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake"
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4484,7 +4484,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build/ament_cmake_core/package.cmake"
+			"path" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build/ament_cmake_core/package.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4754,8 +4754,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/build",
-		"source" : "/home/cmdr/ROS_DEV/NI-to-ROS-2/src/cpp_master_node"
+		"build" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/build",
+		"source" : "/home/cmdr1/ROS_WS/NI-to-ROS-2/src/cpp_master_node"
 	},
 	"version" : 
 	{
